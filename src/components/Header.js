@@ -1,6 +1,6 @@
 import React from 'react'
-import './Header.css'
-import dictionary from './images/dictionary.svg'
+import '../stylesheets/Header.css'
+import dictionary from '../images/dictionary.svg'
 
 
 export default function Header() {

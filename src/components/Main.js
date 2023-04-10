@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import './Main.css'
-import searchIMG from './images/search.png'
+import '../stylesheets/Main.css'
+import searchIMG from '../images/search.png'
 
 export default function Main( {submitHandler, word, phonetic, meanings, source} ) {
 

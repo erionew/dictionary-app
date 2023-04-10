@@ -14,23 +14,30 @@
 }
 .form--word-search button{
     position: absolute;
-    right: 15px;
-    bottom: 10px;
+    right: 0;
+    bottom: -28px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 #button__img{
     width: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+#button__img:hover{
+    transform: rotate(-15deg);
+    width: 22px;
 }
 
 .word-info__word{
     letter-spacing: 2px;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 300;
 }
 
 .word-info__phonetic{
-    font-size: 1.25em;
+    font-size: 1.15em;
     letter-spacing: 2px;
     color: #2b6d66;
 }
