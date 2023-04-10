@@ -11,7 +11,7 @@ This application allows you to search for the definition of any word, with the h
 - Gets API data using Fetch
 - Error handling
 
-## How to use
+## How to Use
 1. Visit the live website
 2. Type in a word
 3. Press the search button to get results
